@@ -1,0 +1,46 @@
+.userBlock {
+  display: flex;
+  /*align-items: center;*/
+  margin: 10px;
+}
+
+.userBlock img {
+  width: 100px;
+  height: 100px;
+}
+
+.userBlock button {
+  width: 85px;
+  margin: 0;
+  padding: 5px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  /*border: none;*/
+  /*background-color: #038d47;*/
+  cursor: pointer;
+  /*color: #FFFFFF;*/
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  border: 2px solid lightseagreen;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

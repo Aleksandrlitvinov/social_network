@@ -1,0 +1,21 @@
+.dialog {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.dialogName {
+  text-decoration: none;
+  color: #000000;
+  padding-left: 20px;
+}
+
+.dialogName.active {
+  color: #cc348f;
+}
+
+.avatar {
+  width: 50px;
+}

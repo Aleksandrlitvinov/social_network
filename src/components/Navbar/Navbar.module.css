@@ -1,0 +1,18 @@
+.nav {
+  grid-area: nav;
+  background-color: orange;
+}
+
+.item{
+  padding: 20px;
+}
+
+.itemLink {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.itemLinkActive {
+  text-decoration: none;
+  color: red
+}

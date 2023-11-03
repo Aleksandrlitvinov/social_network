@@ -1,0 +1,25 @@
+.header {
+  padding: 10px;
+  grid-area: header;
+  background-color: #7bcb7b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerImg {
+  width: 20px;
+}
+
+.loginBlock{
+  float: right;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.loginBlock a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+}
