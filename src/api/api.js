@@ -22,7 +22,7 @@ export const usersApi = {
       .then(response => response.data)
   },
 
-   follow(id) {
+  follow(id) {
     return axios
       .post(
         `https://social-network.samuraijs.com/api/1.0/follow/${ id }`, {},
@@ -45,14 +45,14 @@ export const usersApi = {
           "API-KEY": "9284d891-46f2-4575-8a4e-85cd4bbdcd06",
         }
       }).then(response => response.data)
-  },
+  }
+}
 
+export const profileAPI = {
   getProfile(userId) {
     return axios.get(
       `https://social-network.samuraijs.com/api/1.0/profile/${ userId }`)
   }
-
-
 }
 
 export const authApi = {
