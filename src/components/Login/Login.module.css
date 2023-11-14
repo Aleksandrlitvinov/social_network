@@ -1,0 +1,26 @@
+.formWrapper h1 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.form {
+  text-align: center;
+}
+
+.formInput {
+  margin: 10px 0;
+}
+
+.formInput input {
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.formWrapper button{
+  width: 100px;
+  padding: 5px 10px;
+  text-align: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}

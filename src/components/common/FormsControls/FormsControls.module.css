@@ -1,0 +1,26 @@
+.formControl textarea {
+  outline: none;
+}
+
+.formControl.error input,
+.formControl.error textarea {
+  border: red 2px solid;
+}
+
+.formControl.error span {
+  color: red;
+}
+
+.formSummaryError {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  border: 2px red solid;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #b9237e;
+}

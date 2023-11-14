@@ -11,6 +11,11 @@
   width: 20px;
 }
 
+.authBlock{
+  display: flex;
+  align-items: center;
+}
+
 .loginBlock{
   float: right;
   color: #FFFFFF;
@@ -22,4 +27,8 @@
   color: #FFFFFF;
   text-decoration: none;
   font-weight: bold;
+}
+
+.logoutBlock a{
+
 }

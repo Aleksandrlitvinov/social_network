@@ -3,13 +3,20 @@
   width: 100%;
 }
 
-.avatar {
+/*.avatar {*/
+/*  margin: 20px;*/
+/*  -webkit-border-radius: 50%;*/
+/*  -moz-border-radius: 50%;*/
+/*  border-radius: 50%;*/
+/*  !*width: 100px;*!*/
+/*  !*height: 100px;*!*/
+/*}*/
+
+.avatar img {
   margin: 20px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
 }
 
 .profileBlock {
